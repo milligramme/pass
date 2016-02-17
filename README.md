@@ -10,4 +10,4 @@ operators inspired from bundler
 
 ## Usage
 
-see /example.jsx
+see [\/example.jsx](https://github.com/milligramme/pass-jsx/blob/master/example.jsx)
