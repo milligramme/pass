@@ -1,0 +1,16 @@
+{
+  "name": "pass",
+  "version": "0.9.0",
+  "description": "use semantic versioning filter in extendscrpt",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": ["extendscript", "jsx"],
+  "author": "milligramme",
+  "license": "MIT",
+  "devDependencies": {
+    "fakestk": "^0.2.3",
+    "tape": "^4.4.0"
+  }
+}
