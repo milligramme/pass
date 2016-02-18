@@ -27,10 +27,7 @@ Pass.prototype.ass = function (version) {
         return true
       }
       else if (SCPT_MAJOR == TARG_MAJOR) {
-        if (SCPT_MINOR < TARG_MINOR) {
-          return false
-        }
-        else if (SCPT_MINOR == TARG_MINOR) {
+        if (SCPT_MINOR == TARG_MINOR) {
           return SCPT_PATCH >= TARG_PATCH
         }
         else {
@@ -46,10 +43,7 @@ Pass.prototype.ass = function (version) {
         return true
       }
       else if (SCPT_MAJOR == TARG_MAJOR) {
-        if (SCPT_MINOR < TARG_MINOR) {
-          return true
-        }
-        else if (SCPT_MINOR == TARG_MINOR) {
+        if (SCPT_MINOR == TARG_MINOR) {
           return SCPT_PATCH < TARG_PATCH
         }
         else {
